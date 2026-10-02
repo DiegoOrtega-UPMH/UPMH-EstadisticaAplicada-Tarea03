@@ -1,0 +1,6 @@
+,minmax_min_antes,minmax_max_antes,minmax_min_despues,minmax_max_despues,minmax_implementacion,z_media_antes,z_desviacion_antes,z_media_despues,z_desviacion_despues,z_implementacion
+SalePrice,34900.0,755000.0,0.0,1.0,Fórmula Min-Max equivalente implementada con NumPy/Pandas,180921.19589041095,79415.29188606751,1.3626846987180004e-16,0.9999999999999998,Fórmula Z equivalente implementada con NumPy/Pandas
+LotArea,1300.0,17673.5,0.0,1.0,Fórmula Min-Max equivalente implementada con NumPy/Pandas,9647.260616438356,3593.417900065421,5.596740726877502e-17,1.0,Fórmula Z equivalente implementada con NumPy/Pandas
+GrLivArea,334.0,2747.625,0.0,1.0,Fórmula Min-Max equivalente implementada con NumPy/Pandas,1503.7358732876712,481.2107585890586,3.771716576808751e-17,1.0,Fórmula Z equivalente implementada con NumPy/Pandas
+TotalBsmtSF,0.0,2052.0,0.0,1.0,Fórmula Min-Max equivalente implementada con NumPy/Pandas,1049.190410958904,400.54463355498115,9.976798687042502e-17,1.0,Fórmula Z equivalente implementada con NumPy/Pandas
+GarageArea,0.0,938.25,0.0,1.0,Fórmula Min-Max equivalente implementada con NumPy/Pandas,470.6707191780822,207.03479045661456,-7.543433153617502e-17,0.9999999999999998,Fórmula Z equivalente implementada con NumPy/Pandas

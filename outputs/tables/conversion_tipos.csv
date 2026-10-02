@@ -1,0 +1,5 @@
+,tipo_antes,tipo_despues,valores_unicos
+MSSubClass,int64,category,15.0
+MoSold,int64,int8,12.0
+YrSold,int64,int16,5.0
+Memoria (bytes),35172.0,6092.0,

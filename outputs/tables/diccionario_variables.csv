@@ -1,0 +1,82 @@
+variable,dtype_observado,tipo_analitico,rol,descripcion_documentada
+Id,int64,numérica,identificador,Sin descripción explícita en la documentación suministrada; verificar antes de interpretar.
+MSSubClass,int64,numérica,predictor,Identifies the type of dwelling involved in the sale.
+MSZoning,str,categórica,predictor,Identifies the general zoning classification of the sale.
+LotFrontage,float64,numérica,predictor,Linear feet of street connected to property
+LotArea,int64,numérica,predictor,Lot size in square feet
+Street,str,categórica,predictor,Type of road access to property
+Alley,str,categórica,predictor,Type of alley access to property
+LotShape,str,categórica,predictor,General shape of property
+LandContour,str,categórica,predictor,Flatness of the property
+Utilities,str,categórica,predictor,Type of utilities available
+LotConfig,str,categórica,predictor,Lot configuration
+LandSlope,str,categórica,predictor,Slope of property
+Neighborhood,str,categórica,predictor,Physical locations within Ames city limits
+Condition1,str,categórica,predictor,Proximity to various conditions
+Condition2,str,categórica,predictor,Proximity to various conditions (if more than one is present)
+BldgType,str,categórica,predictor,Type of dwelling
+HouseStyle,str,categórica,predictor,Style of dwelling
+OverallQual,int64,numérica,predictor,Rates the overall material and finish of the house
+OverallCond,int64,numérica,predictor,Rates the overall condition of the house
+YearBuilt,int64,numérica,predictor,Original construction date
+YearRemodAdd,int64,numérica,predictor,Remodel date (same as construction date if no remodeling or additions)
+RoofStyle,str,categórica,predictor,Type of roof
+RoofMatl,str,categórica,predictor,Roof material
+Exterior1st,str,categórica,predictor,Exterior covering on house
+Exterior2nd,str,categórica,predictor,Exterior covering on house (if more than one material)
+MasVnrType,str,categórica,predictor,Masonry veneer type
+MasVnrArea,float64,numérica,predictor,Masonry veneer area in square feet
+ExterQual,str,categórica,predictor,Evaluates the quality of the material on the exterior
+ExterCond,str,categórica,predictor,Evaluates the present condition of the material on the exterior
+Foundation,str,categórica,predictor,Type of foundation
+BsmtQual,str,categórica,predictor,Evaluates the height of the basement
+BsmtCond,str,categórica,predictor,Evaluates the general condition of the basement
+BsmtExposure,str,categórica,predictor,Refers to walkout or garden level walls
+BsmtFinType1,str,categórica,predictor,Rating of basement finished area
+BsmtFinSF1,int64,numérica,predictor,Type 1 finished square feet
+BsmtFinType2,str,categórica,predictor,Rating of basement finished area (if multiple types)
+BsmtFinSF2,int64,numérica,predictor,Type 2 finished square feet
+BsmtUnfSF,int64,numérica,predictor,Unfinished square feet of basement area
+TotalBsmtSF,int64,numérica,predictor,Total square feet of basement area
+Heating,str,categórica,predictor,Type of heating
+HeatingQC,str,categórica,predictor,Heating quality and condition
+CentralAir,str,categórica,predictor,Central air conditioning
+Electrical,str,categórica,predictor,Electrical system
+1stFlrSF,int64,numérica,predictor,First Floor square feet
+2ndFlrSF,int64,numérica,predictor,Second floor square feet
+LowQualFinSF,int64,numérica,predictor,Low quality finished square feet (all floors)
+GrLivArea,int64,numérica,predictor,Above grade (ground) living area square feet
+BsmtFullBath,int64,numérica,predictor,Basement full bathrooms
+BsmtHalfBath,int64,numérica,predictor,Basement half bathrooms
+FullBath,int64,numérica,predictor,Full bathrooms above grade
+HalfBath,int64,numérica,predictor,Half baths above grade
+BedroomAbvGr,int64,numérica,predictor,Bedrooms above grade (does NOT include basement bedrooms)
+KitchenAbvGr,int64,numérica,predictor,Kitchens above grade
+KitchenQual,str,categórica,predictor,Kitchen quality
+TotRmsAbvGrd,int64,numérica,predictor,Total rooms above grade (does not include bathrooms)
+Functional,str,categórica,predictor,Home functionality (Assume typical unless deductions are warranted)
+Fireplaces,int64,numérica,predictor,Number of fireplaces
+FireplaceQu,str,categórica,predictor,Fireplace quality
+GarageType,str,categórica,predictor,Garage location
+GarageYrBlt,float64,numérica,predictor,Year garage was built
+GarageFinish,str,categórica,predictor,Interior finish of the garage
+GarageCars,int64,numérica,predictor,Size of garage in car capacity
+GarageArea,int64,numérica,predictor,Size of garage in square feet
+GarageQual,str,categórica,predictor,Garage quality
+GarageCond,str,categórica,predictor,Garage condition
+PavedDrive,str,categórica,predictor,Paved driveway
+WoodDeckSF,int64,numérica,predictor,Wood deck area in square feet
+OpenPorchSF,int64,numérica,predictor,Open porch area in square feet
+EnclosedPorch,int64,numérica,predictor,Enclosed porch area in square feet
+3SsnPorch,int64,numérica,predictor,Three season porch area in square feet
+ScreenPorch,int64,numérica,predictor,Screen porch area in square feet
+PoolArea,int64,numérica,predictor,Pool area in square feet
+PoolQC,str,categórica,predictor,Pool quality
+Fence,str,categórica,predictor,Fence quality
+MiscFeature,str,categórica,predictor,Miscellaneous feature not covered in other categories
+MiscVal,int64,numérica,predictor,$Value of miscellaneous feature
+MoSold,int64,numérica,predictor,Month Sold (MM)
+YrSold,int64,numérica,predictor,Year Sold (YYYY)
+SaleType,str,categórica,predictor,Type of sale
+SaleCondition,str,categórica,predictor,Condition of sale
+SalePrice,int64,numérica,objetivo,Sin descripción explícita en la documentación suministrada; verificar antes de interpretar.

@@ -1,0 +1,6 @@
+variable,limite_inferior,limite_superior,atipicos_inferiores,atipicos_superiores,atipicos_antes,valores_clippeados,atipicos_despues,tratamiento
+SalePrice,3937.5,340037.5,0,61,61,0,61,sin clipping (objetivo)
+LotArea,1481.5,17673.5,2,67,69,67,2,clipping superior
+GrLivArea,158.625,2747.625,0,31,31,31,0,clipping superior
+TotalBsmtSF,42.0,2052.0,37,24,61,24,37,clipping superior
+GarageArea,-27.75,938.25,0,21,21,21,0,clipping superior
